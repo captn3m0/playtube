@@ -10,7 +10,9 @@ class DL:
             'addmetadata': True,
             'extractaudio': True,
             'audioformat': 'm4a',
-            'quiet': True
+            'quiet': True,
+            # Don't redownload tracks
+            'nooverwrites': True
         })
 
     def already_downloaded(self):
@@ -41,4 +43,4 @@ class DL:
         return result
 
 if __name__ == "__main__":
-    res = DL('https://www.youtube.com/watch?v=akhmS1D2Ce4').download()
+    DL('https://www.youtube.com/watch?v=akhmS1D2Ce4').download()

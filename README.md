@@ -20,6 +20,11 @@ Personal Music Server that plays music from youtube
 - `flask`
 - `tinydb`
 
+## TODO
+
+- Add search inside tags
+- Add playlist download and play support
+
 ## License
 
 Licensed under [MIT](https://nemo.mit-license.org).

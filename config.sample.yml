@@ -1,0 +1,5 @@
+directories:
+	# This is where youtube videos will be stored
+	youtube: Music/
+	# Where to pick up videos from
+	videos: Videos/
