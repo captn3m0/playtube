@@ -2,6 +2,8 @@
 
 Personal Music Server that plays music from youtube
 
+Note: No longer supported.
+
 ## Goals
 
 - Run on a Raspberry Pi (raspian jessy)
